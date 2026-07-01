@@ -1,3 +1,4 @@
+![Java CI](https://github.com/AnashyaRDevnath/Secure-Message-System/actions/workflows/maven.yml/badge.svg)
 # Secure-Message-System
 A secure messaging application built in Java, featuring user registration with 
 strict validation rules, password complexity enforcement, and a full messaging 
