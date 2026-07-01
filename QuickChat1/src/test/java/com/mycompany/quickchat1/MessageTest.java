@@ -39,7 +39,7 @@ public class MessageTest {
 
     @Test
     public void testPhoneNumber_Success_International() {
-        String number = "‪+27718693002‬";
+       String number = "+27718693002";
         assertTrue(isValidPhoneNumber(number), "Cell phone number successfully captured.");
     }
 
@@ -66,7 +66,7 @@ public class MessageTest {
 
     @Test
     public void testMessageIDGenerated() {
-        String id = generateMessageId("Hi there", "‪+27712345678‬");
+       String id = generateMessageId("Hi there", "+27712345678");
         assertNotNull(id);
         assertTrue(id.startsWith("MSG-"));
         System.out.println("Message ID generated: " + id);
