@@ -67,6 +67,7 @@ public class MessageTest {
     @Test
     public void testMessageIDGenerated() {
        String id = generateMessageId("Hi there", "+27712345678");
+       
         assertNotNull(id);
         assertTrue(id.startsWith("MSG-"));
         System.out.println("Message ID generated: " + id);
