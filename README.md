@@ -36,6 +36,17 @@ system with JSON-based persistence.
 2. Open in your IDE of choice (e.g. IntelliJ, Eclipse, NetBeans)
 3. Run the main class
 
+## Screenshots
+
+**Registration**
+![Registration Success](screenshots/registration-success.png)
+
+**Login**
+![Login Welcome](screenshots/login-welcome.png)
+
+**Main Menu**
+![Main Menu](screenshots/main-menu.png)
+
 ## Testing
 The project includes unit tests covering core functionality such as 
 registration, login, and message handling.
